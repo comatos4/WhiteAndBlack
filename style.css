@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 50px;
+	color: #000000;
+	letter-spacing: -0.5px;
+	padding-top: 100px;
+}
+
+.main{
+	height: 810px;
+	width: 1170px;
+	display: flex;
+	margin: 50px auto;
+	flex-direction: row;
+}
+
+.blue {
+	background-color: #3D3BFF;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.white {
+	background-color: #FAFBFE;
+	width: 50%;
+	display: flex;
+	box-shadow: 0px 2px 24px rgba(168, 175, 196, 0.3);
+	justify-content: center;
+	align-items: center;
+}
+
+.one p {
+	font-family: Roboto;
+	font-size: 18px;
+	line-height: 18px;
+	letter-spacing: -0.5px;
+	color: #FFFFFF;
+	opacity: 0.5;
+}
+.two p {
+	font-family: Roboto Slab;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 38px;
+	line-height: 50px;
+	letter-spacing: -2px;
+	color: #FFFFFF;
+	opacity: 0.4;
+	padding-bottom: 17px;
+}
+.three p {
+	font-family: Roboto Slab;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 80px;
+	line-height: 95px;
+	letter-spacing: -2px;
+	color: #FFFFFF;
+	mix-blend-mode: normal;
+}
+
+.four p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 23px;
+	line-height: 27px;
+	letter-spacing: -0.1px;
+	color: #FFFFFF;
+}
+
+.five p {
+	font-family: Roboto Slab;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 50px;
+	line-height: 66px;
+	letter-spacing: -2px;
+	color: #FFFFFF;
+	mix-blend-mode: normal;
+	padding-top: 28px;
+}
+
+.six p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	letter-spacing: -0.5px;
+	color: #FFFFFF;
+	padding-top: 5px;
+}
+
+.zzz p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 40px;
+	letter-spacing: -0.5px;
+	color: #000000;
+}
+
+.tele {
+padding-left: 30px;
+}
+
+li::marker {
+	color: #3D3BFF;
+	font-size: 1.5rem;
+}
+
+.txt {
+	display:flex;
+	flex-direction: row;
+}
+.start p,
+.mesta p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: -0.5px;
+	color: #657195;
+	mix-blend-mode: normal;
+}
+
+.start span,
+.mesta span {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	letter-spacing: -0.5px;
+	color: #3D3BFF;
+	mix-blend-mode: normal;
+}
+
+input[type=tel] {
+	border: 0;
+	background-color: #FAFBFE;
+}
+
+.pole {
+	display: flex;
+	height: 700px;
+	width: 370px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.tele{
+	align-self: flex-start;
+}
